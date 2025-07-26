@@ -62,7 +62,8 @@
 │
 ├── .env # Environment variables
 ├── README.md # Project overview
-└── package.json # Project metadata & scripts```
+└── package.json # Project metadata & scripts
+```
 
 
 # Set Up the Backend
