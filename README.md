@@ -66,43 +66,43 @@
 ```
 
 
-# Set Up the Backend
+## Set Up the Backend
 
 cd server
 npm install
 npm run dev
 
-# Set Up the Frontend
+## Set Up the Frontend
 
 cd ../client
 npm install
 npm run dev
 
 
-# Authentication via Clerk--
+## Authentication via Clerk--
 
 Create a Clerk account
 Get your Clerk frontend & backend keys
 Add them to .env files in both /client and /server
 
 
-# 📦 Environment Variables--
+## 📦 Environment Variables--
 
 Create .env files in both /client and /server directories.
 
-## /client/.env-
+### /client/.env-
 
 VITE_CLERK_PUBLISHABLE_KEY=your_publishable_key
 
-## /server/.env-
+### /server/.env-
 
 CLERK_SECRET_KEY=your_clerk_secret_key
 DATABASE_URL=postgres://username:password@localhost:5432/quickai
 
-# 🤝 Contribution
+## 🤝 Contribution
 
 Contributions are welcome!
 Please open issues and submit pull requests for improvements.
 
-# 🙋‍♂️ Author
+## 🙋‍♂️ Author
 Aman Kumar – GitHub
