@@ -1,12 +1,43 @@
 # React + Vite
+# 🚀 QuickAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**QuickAI** is a full-stack AI-powered content creation platform built with the **PERN stack** and authenticated via **Clerk**. It allows users to generate, enhance, and optimize content using cutting-edge AI tools.
 
-Currently, two official plugins are available:
+![QuickAI Banner](https://via.placeholder.com/1200x400?text=QuickAI+Platform+Banner)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+**Local Dev**: `http://localhost:5173`  
+> Production URL will be added soon.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🔐 **Clerk Authentication** – Seamless login/signup with secure session management
+- 🧠 **AI Tools**:
+  - ✍️ AI Article Writer
+  - 📰 Blog Title Generator
+  - 🖼️ AI Image Generator
+  - ✂️ Background & Object Removal
+  - 📄 Resume Reviewer
+- 💾 **PostgreSQL Database** – Robust, scalable data storage
+- ⚙️ **Express.js Backend** – Fast API endpoints
+- ⚛️ **React Frontend** – Responsive, interactive UI with Vite
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Tech Used               |
+|--------------|--------------------------|
+| Frontend     | React.js, Vite, TailwindCSS |
+| Backend      | Node.js, Express.js      |
+| Database     | PostgreSQL (via Prisma or pg) |
+| Auth         | Clerk                    |
+| Hosting/CI   | (Optional: Vercel/Render/Heroku) |
+
+---
+
+## 📁 Project Structure
+
